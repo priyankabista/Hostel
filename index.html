@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awwa Hostel</title>
+    <style>
+        body{
+            color:ghostwhite;
+        }
+        .image {
+            box-shadow: inset;
+            height: 700px;
+            float: right;
+            margin-right: 10px;
+        }
+        p {
+            font-size: large;
+        }
+        h2 {
+            text-align: center;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body >
+    <h1 id="title" onclick="change()">A Normal Hostel</h1>
+    <h2>Southern Command Girls Hostel</h2>
+    <img class="image" src="img/7.jpg" alt="Hostel view">
+    
+    
+    <p>AWWA Girls Hostel is a facility designed specifically to provide a safe and nurturing environment for the daughters of Army personnel. These hostels typically offer accommodation, educational support, and extracurricular activities, aiming to provide a holistic environment for the personal and academic growth of the girls staying there.</p>
+    <p>These hostels often ensure a secure and supportive atmosphere, where students can pursue their education with a sense of stability and community. They are equipped with necessary amenities and are managed with a focus on discipline, academic excellence, and the overall well-being of the students. The hostels are not just places to stay; they are centers that foster the development of values such as independence, camaraderie, and resilience among the girls, preparing them for future challenges.</p> 
+    <p>The hostels are a testament to the Indian Army's commitment to the welfare of its personnel, extending its support system to ensure that the children of Army families have access to quality education and a safe environment, no matter where their parents are stationed.</p>
+    <button id="changeTextButton" onclick="changeImage()">Next Image</button>
+    <p id="parentNode"  onclick="addTextNode()" style="color:blue;">Click to know a useless information!</p>
+    <button id="removeButton" onclick="removeNode()">Delete info</button>
+
+    <div class="form-container">
+        <form id="sampleForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <button type="button" id="submitForm">Submit Form</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
